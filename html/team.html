@@ -5,8 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <style>
+      .card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.containercc {
+  padding: 2px 16px;
+}
+    </style>
+
 
     <title>TMR | Our Team</title>
+
+   
 </head>
 <body bgcolor="Ivory">
      <div class="nav" id="nav">
@@ -23,100 +45,949 @@
 
 <span onclick="openNav()" class="open" id="open"><a style="-webkit-tap-highlight-color: transparent;">&#9776</a></span>
 
-<section class="text-gray-700 body-font">
-    <div class="container px-5 py-24 mx-auto">
-      <div class="flex flex-col text-center w-full mb-20">
-        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Our Team</h1>
-        <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them.</p>
+
+
+  <section class="text-gray-700 body-font">
+    <div class="container px-3 py-20 mx-auto">
+      <div class="flex flex-col text-center w-full mb-11">
+        <h1 class="text-3xl text-2xl font-medium title-font mb-4 text-gray-800">Our Team</h1>
+        <!-- <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them.</p> -->
       </div>
+    </div>
+  </section>
+
+  <div class="w3-container">
+    <!-- <h2>Active Tabs</h2>
+    <p>To highlight the current tab/page the user is on, add a color class, and use JavaScript to update the active link.</p> -->
+  
+    <div class="w3-bar w3-white">
+      <button class="w3-bar-item w3-button tablink w3-orange w3-hover-orange " style="width:49%" onclick="openCity(event,'London')">TMR-Combustion</button>
+       <button  >&nbsp;</button>
+      <button class="w3-bar-item w3-button w3-white tablink w3-hover-orange" onclick="openCity(event,'Paris')" style="width:49%">TMR-Electric</button>
+      <!-- <button class="w3-bar-item w3-button tablink" onclick="openCity(event,'Tokyo')">Tokyo</button> -->
+    </div>
+    
+    <div id="London" class="w3-container w3-border city">
+
+
+
+
+      <hr class="style-one">
+
+      <section class="text-gray-700 body-font">
+        <div class="container mx-auto flex px-5 py-15 items-center justify-center flex-col">
+          
+          <div class="text-center lg:w-2/3 w-full">
+            <h1 class="title-font mb-4 text-gray-700 text-xl"><b></b></h1>
+            <p class="mb-8 leading-relaxed"> </p>
+            
+          </div>
+        </div>
+      </section>
+    
+      <section class="text-gray-700  body-font">
+        <div class="container px-2  py-15 mx-auto">
+        
+          <div class="flex flex-wrap -m-2">
+            
+            
+    
+         
+    
+            <!-- badi -->
+            <div class="p-2 lg:w-1/2 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                <img alt="team" class="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="team-images/badi.jpg">
+                <div class="flex-grow">
+                  <h2 class="text-gray-800 title-font text-lg ">Kartik Badiger</h2>
+                  <p class="text-gray-500">Captain</p>
+                  <a href="#  
+                  "  class="ml-3 text-gray-500">
+                    <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                      <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                      <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+    
+    
+    <!-- bhav -->
+            <div class="p-2 lg:w-1/2 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                <img alt="team" class="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="team-images/bhayansh.JPG">
+                <div class="flex-grow">
+                  <h2 class="text-gray-800 title-font text-lg ">Bhavyansh S. Girdhar
+                  </h2>
+                  <p class="text-gray-500">Team Manager</p>
+                  <a href="https://www.linkedin.com/in/bhavyansh-girdhar-b05993188/
+                  " target="_blank" class="ml-3 text-gray-500">
+                    <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                      <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                      <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+           
+    
+    
+           
+            
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+
+      <hr class="style-one">
+
+      <section class="text-gray-700 body-font">
+        <div class="container mx-auto flex px-5 py-20 items-center justify-center flex-col">
+          
+          <div class="text-center lg:w-2/3 w-full">
+            <h1 class="title-font mb-4 text-gray-700 text-xl"><b>Vehicle Dynamics</b></h1>
+            <p class="mb-8 leading-relaxed">The responsibilities of the VD team are to come up with an ideal suspension and steering geometry using various software, running simulations, Designing the components and in the end manufacturing and packaging of the components. </p>
+            
+          </div>
+        </div>
+      </section>
+    
+      <section class="text-gray-700  body-font">
+        <div class="container px-2  py-15 mx-auto">
+        
+          <div class="flex flex-wrap -m-2">
+            
+            
+    
+         
+    
+            <!-- vedant -->
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                <img alt="team" class="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="team-images/blank-avatar-photo-place-holder-260nw-1114445501.webp">
+                <div class="flex-grow">
+                  <h2 class="text-gray-800 title-font text-lg ">Vedant Murugkar</h2>
+                  <p class="text-gray-500">Subsystem Head</p>
+                  <a href="https://www.linkedin.com/in/vedant-murugkar-a328671a9/
+                  " target="_blank" class="ml-3 text-gray-500">
+                    <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                      <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                      <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+    
+    
+    <!-- somya -->
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                <img alt="team" class="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="team-images/somya.jpg">
+                <div class="flex-grow">
+                  <h2 class="text-gray-800 title-font text-lg ">Somya Patnaik</h2>
+                  <p class="text-gray-500"></p>
+                  <a href="https://www.linkedin.com/company/teammanipalracing/" target="_blank" class="ml-3 text-gray-500">
+                    <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                      <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                      <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- tushar -->
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                <img alt="team" class="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="team-images/tushar.jpg">
+                <div class="flex-grow">
+                  <h2 class="text-gray-800 title-font text-lg ">Tushar Jinaga</h2>
+                  <p class="text-gray-500"></p>
+                  <a href="https://www.linkedin.com/in/tushar-jinaga
+                  " target="_blank" class="ml-3 text-gray-500">
+                    <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                      <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                      <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- pranav j -->
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                <img alt="team" class="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="team-images/pranavnair.jpg">
+                <div class="flex-grow">
+                  <h2 class="text-gray-800 title-font text-lg ">Pranav J Nair
+                  </h2>
+                  <p class="text-gray-500"></p>
+                  <a href="https://www.linkedin.com/in/tushar-jinaga
+                  " target="_blank" class="ml-3 text-gray-500">
+                    <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                      <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                      <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+    
+    
+           
+            
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+      <!-- Structures -->
+      <hr class="style-one">
+
+      <section class="text-gray-700 body-font">
+        <div class="container mx-auto flex px-5 py-20 items-center justify-center flex-col">
+          
+          <div class="text-center lg:w-2/3 w-full">
+            <h1 class="title-font mb-4 text-gray-700 text-xl"><b>Structures</b></h1>
+            <p class="mb-8 leading-relaxed">Deals with everything related to a space frame chassis (roll cage). </p>
+            
+          </div>
+        </div>
+      </section>
+    
+      <section class="text-gray-700  body-font">
+        <div class="container px-2  py-15 mx-auto">
+        
+          <div class="flex flex-wrap -m-2">
+            
+            
+    
+         
+    
+            <!-- rhythm -->
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                <img alt="team" class="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="team-images/rhythm.jpg">
+                <div class="flex-grow">
+                  <h2 class="text-gray-800 title-font text-lg ">Rhythm Jaiswal</h2>
+                  <p class="text-gray-500">Subsystem Head</p>
+                  <a href="https://www.linkedin.com/in/rhythm-jaiswal-4a3896189
+
+                  " target="_blank" class="ml-3 text-gray-500">
+                    <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                      <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                      <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+    
+    
+    <!-- sagar -->
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                <img alt="team" class="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="team-images/Sagar Sanjay Shenoy - Mechatronics - Sagar Sanjay Shenoy.jpg">
+                <div class="flex-grow">
+                  <h2 class="text-gray-800 title-font text-lg ">Sagar Sanjay Shenoy 
+                  </h2>
+                  <p class="text-gray-500">Senior Member</p>
+                  <a href="www.linkedin.com/in/sagar-sanjay-shenoy
+                  " target="_blank" class="ml-3 text-gray-500">
+                    <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                      <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                      <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+     
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+
+        <!-- Transmission -->
+        <hr class="style-one">
+
+        <section class="text-gray-700 body-font">
+          <div class="container mx-auto flex px-5 py-20 items-center justify-center flex-col">
+            
+            <div class="text-center lg:w-2/3 w-full">
+              <h1 class="title-font mb-4 text-gray-700 text-xl"><b>Transmission</b></h1>
+              <p class="mb-8 leading-relaxed">Deals with controlled application of power in vehicle. </p>
+              
+            </div>
+          </div>
+        </section>
+      
+        <section class="text-gray-700  body-font">
+          <div class="container px-2  py-15 mx-auto">
+          
+            <div class="flex flex-wrap -m-2">
+              
+              
+      
+           
+      
+              <!-- tarun -->
+              <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                  <img alt="team" class="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="team-images/tarun.jpg">
+                  <div class="flex-grow">
+                    <h2 class="text-gray-800 title-font text-lg ">Tarun Khapra</h2>
+                    <p class="text-gray-500">Subsystem Head</p>
+                    <a href="https://www.linkedin.com/in/rhythm-jaiswal-4a3896189
+  
+                    " target="_blank" class="ml-3 text-gray-500">
+                      <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                        <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                        <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+      
+      
+      <!-- srikanth -->
+              <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                  <img alt="team" class="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="team-images/srikant.JPG">
+                  <div class="flex-grow">
+                    <h2 class="text-gray-800 title-font text-lg ">Srikanth
+                    </h2>
+                    <p class="text-gray-500">Senior Member</p>
+                    <a href="https://www.linkedin.com/in/srikanth-t-788b231a5
+
+                    " target="_blank" class="ml-3 text-gray-500">
+                      <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                        <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                        <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+
+               <!-- Siddharth Singh -->
+               <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                  <img alt="team" class="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="team-images/siddharth singh.jpg">
+                  <div class="flex-grow">
+                    <h2 class="text-gray-800 title-font text-lg ">Siddharth Singh
+                    </h2>
+                    <p class="text-gray-500"></p>
+                    <a href="https://www.linkedin.com/in/siddhartha-singh-03b6541b2
+
+
+                    " target="_blank" class="ml-3 text-gray-500">
+                      <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                        <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                        <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+       
+            </div>
+          </div>
+        </section>
+
+
+
+
+        <!-- mngmnt -->
+        <hr class="style-one">
+
+        <section class="text-gray-700 body-font">
+          <div class="container mx-auto flex px-5 py-20 items-center justify-center flex-col">
+            
+            <div class="text-center lg:w-2/3 w-full">
+              <h1 class="title-font mb-4 text-gray-700 text-xl"><b>Management</b></h1>
+              <p class="mb-8 leading-relaxed">Deals with Management, Marketing and PR </p>
+              
+            </div>
+          </div>
+        </section>
+      
+        <section class="text-gray-700  body-font">
+          <div class="container px-2  py-15 mx-auto">
+          
+            <div class="flex flex-wrap -m-2">
+              
+              
+      
+           
+      
+              <!-- sanyam -->
+              <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                  <img alt="team" class="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="team-images/sanyam.jpg">
+                  <div class="flex-grow">
+                    <h2 class="text-gray-800 title-font text-lg ">Sanyam Jain</h2>
+                    <p class="text-gray-500">Subsystem Head</p>
+                    <a href="https://www.linkedin.com/in/sanyam-jain-029420138
+
+                    " target="_blank" class="ml-3 text-gray-500">
+                      <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                        <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                        <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+      
+      
+      <!-- Himanshu D Bhandari 
+ -->
+              <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                  <img alt="team" class="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="team-images/himanshu.jpg">
+                  <div class="flex-grow">
+                    <h2 class="text-gray-800 title-font text-lg ">Himanshu D Bhandari 
+
+                    </h2>
+                    <p class="text-gray-500"></p>
+                    <a href="http://www.linkedin.com/in/himanshu-bhandari-2090491ab
+
+
+                    " target="_blank" class="ml-3 text-gray-500">
+                      <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                        <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                        <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+
+               <!-- Aryan S Pillai
+ -->
+               <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                  <img alt="team" class="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="team-images/IMG20200623072901 - Aryan Pillai.jpg">
+                  <div class="flex-grow">
+                    <h2 class="text-gray-800 title-font text-lg ">Aryan S Pillai
+
+                    </h2>
+                    <p class="text-gray-500"></p>
+                    <a href="https://www.linkedin.com/in/aryan-s-pillai-4295401b4
+
+
+
+                    " target="_blank" class="ml-3 text-gray-500">
+                      <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                        <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                        <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+       
+            </div>
+          </div>
+        </section>
+
+
+
+
+
+
+
+
+
+    
+    
+    
+   
+
+
+
+    </div>
+  
+    <!-- <div id="Paris" class="w3-container w3-border city" style="display:none">
+      <h2>Paris</h2>
+      <p>Paris is the capital of France.</p> 
+    </div> -->
+  
+    <!-- <div id="Tokyo" class="w3-container w3-border city" style="display:none">
+      <h2>Tokyo</h2>
+      <p>Tokyo is the capital of Japan.</p>
+    </div> -->
+  <!-- </div> -->
+
+
+<!-- ---------------------------------------------------------------------------------------------------------------- -->
+
+  <!-- TMR-Electric -->
+  <div id="Paris" class="w3-container w3-border city" style="display:none">
+
+
+
+<hr class="style-one">
+<!-- nitish -->
+
+
+
+<section class="text-gray-700 body-font">
+  <div class="container mx-auto flex px-5 py-15 items-center justify-center flex-col">
+    
+    <div class="text-center lg:w-2/3 w-full">
+      <h1 class="title-font mb-4 text-gray-700 text-xl"><b></b></h1>
+      <p class="mb-8 leading-relaxed"> </p>
+      
+    </div>
+  </div>
+</section>
+
+<section class="text-gray-700  body-font">
+<div class="container px-2  py-15 mx-auto">
+
+<div class="flex flex-wrap -m-2">
+
+
+
+<!-- nitish-->
+<div class="p-2 lg:w-1/2 md:w-1/2 w-full">
+  <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+    <img alt="team" class="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="team-images/nitish.jpg">
+    <div class="flex-grow">
+      <h2 class="text-gray-800 title-font text-lg ">Nitish Madiath</h2>
+      <p class="text-gray-500">Captain and Transmission Head</p>
+      <a href="https://www.linkedin.com/in/nitish-madiath-b93604187/
+
+      " target="_blank" class="ml-3 text-gray-500">
+        <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+          <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+          <circle cx="4" cy="4" r="2" stroke="none"></circle>
+        </svg>
+      </a>
+    </div>
+  </div>
+</div>  
+
+   <!-- pranav -->
+   <div class="p-2 lg:w-1/2 md:w-1/2 w-full">
+    <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+      <img alt="team" class="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="team-images/Pranav Passport 3rd March 2020 - Pranav Ananthakumar.jpg">
+      <div class="flex-grow">
+        <h2 class="text-gray-800 title-font text-lg ">Pranav Ananthakumar</h2>
+        <p class="text-gray-500">Vice Captain and HV-BMS Member</p>
+        <a href="https://www.linkedin.com/in/pranav-ananthakumar-57a69b183/" target="_blank" class="ml-3 text-gray-500">
+          <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+            <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+</div>
+</div>
+</section>
+
+
+<hr class="style-one">
+
+  <section class="text-gray-700 body-font">
+    <div class="container mx-auto flex px-5 py-20 items-center justify-center flex-col">
+      
+      <div class="text-center lg:w-2/3 w-full">
+        <h1 class="title-font mb-4 text-gray-700 text-xl"><b>High Voltage and Battery Management System</b></h1>
+        <p class="mb-8 leading-relaxed">Deals with High Voltage components like BLDC motor and Battery pack along with Battery Management System. </p>
+        
+      </div>
+    </div>
+  </section>
+
+  <section class="text-gray-700  body-font">
+    <div class="container px-2  py-15 mx-auto">
+    
       <div class="flex flex-wrap -m-2">
+        
+        
+
+     
+
+        <!-- prathik -->
         <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
           <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-            <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80">
+            <img alt="team" class="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="team-images/Passportsize - Prathik Shetty.jpg">
             <div class="flex-grow">
-              <h2 class="text-gray-900 title-font font-medium">Holden Caulfield</h2>
-              <p class="text-gray-500">UI Designer</p>
+              <h2 class="text-gray-800 title-font text-lg ">Prathik Shetty</h2>
+              <p class="text-gray-500">Subsystem Head</p>
+              <a href="https://www.linkedin.com/in/prathik-shetty-12a861176
+              " target="_blank" class="ml-3 text-gray-500">
+                <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                  <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                </svg>
+              </a>
             </div>
           </div>
         </div>
+
+
+<!-- Rishab -->
         <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
           <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-            <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/84x84">
+            <img alt="team" class="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="team-images/rishab.jpg">
             <div class="flex-grow">
-              <h2 class="text-gray-900 title-font font-medium">Henry Letham</h2>
-              <p class="text-gray-500">CTO</p>
+              <h2 class="text-gray-800 title-font text-lg ">Rishabh Jain</h2>
+              <p class="text-gray-500"></p>
+              <a href="https://www.linkedin.com/company/teammanipalracing/" target="_blank" class="ml-3 text-gray-500">
+                <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                  <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                </svg>
+              </a>
             </div>
           </div>
         </div>
-        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-          <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-            <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/88x88">
-            <div class="flex-grow">
-              <h2 class="text-gray-900 title-font font-medium">Oskar Blinde</h2>
-              <p class="text-gray-500">Founder</p>
-            </div>
-          </div>
-        </div>
-        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-          <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-            <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/90x90">
-            <div class="flex-grow">
-              <h2 class="text-gray-900 title-font font-medium">John Doe</h2>
-              <p class="text-gray-500">DevOps</p>
-            </div>
-          </div>
-        </div>
-        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-          <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-            <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/94x94">
-            <div class="flex-grow">
-              <h2 class="text-gray-900 title-font font-medium">Martin Eden</h2>
-              <p class="text-gray-500">Software Engineer</p>
-            </div>
-          </div>
-        </div>
-        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-          <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-            <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98">
-            <div class="flex-grow">
-              <h2 class="text-gray-900 title-font font-medium">Boris Kitua</h2>
-              <p class="text-gray-500">UX Researcher</p>
-            </div>
-          </div>
-        </div>
-        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-          <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-            <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/100x90">
-            <div class="flex-grow">
-              <h2 class="text-gray-900 title-font font-medium">Atticus Finch</h2>
-              <p class="text-gray-500">QA Engineer</p>
-            </div>
-          </div>
-        </div>
-        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-          <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-            <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/104x94">
-            <div class="flex-grow">
-              <h2 class="text-gray-900 title-font font-medium">Alper Kamu</h2>
-              <p class="text-gray-500">System</p>
-            </div>
-          </div>
-        </div>
-        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-          <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-            <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/108x98">
-            <div class="flex-grow">
-              <h2 class="text-gray-900 title-font font-medium">Rodrigo Monchi</h2>
-              <p class="text-gray-500">Product Manager</p>
-            </div>
-          </div>
-        </div>
+
+
+       
+        
       </div>
     </div>
   </section>
 
 
-<script src="nav.js"></script>
+
+
+  <hr class="style-one"> 
+  <!-- daq -->
+
+ <section class="text-gray-700 body-font">
+          <div class="container mx-auto flex px-5 py-20 items-center justify-center flex-col">
+            
+            <div class="text-center lg:w-2/3 w-full">
+              <h1 class="title-font mb-4 text-gray-700 text-xl"><b>Data Acquisition (DAQ) and Low Voltage</b></h1>
+              <p class="mb-8 leading-relaxed">Deals with Data Acquisition, Low Voltage components and other Integrated Circuits. </p>
+              
+            </div>
+          </div>
+        </section>
+
+
+
+  <section class="text-gray-700  body-font">
+    <div class="container px-2  py-15 mx-auto">
+    
+      <div class="flex flex-wrap -m-2">
+        
+        
+
+        <!-- harsh -->
+        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+          <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+            <img alt="team" class="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="team-images/harsh.jpg">
+            <div class="flex-grow">
+              <h2 class="text-gray-800 title-font text-xl ">Harsh Adwani</h2>
+              <p class="text-gray-500">Subsystem Head</p>
+              <a href="https://www.linkedin.com/in/pranav-ananthakumar-57a69b183/" target="_blank" class="ml-3 text-gray-500">
+                <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                  <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- tejasvini-->
+        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+          <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+            <img alt="team" class="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="team-images/tejasvini.jfif">
+            <div class="flex-grow">
+              <h2 class="text-gray-800 title-font text-xl ">Tejasvini Patil</h2>
+              <p class="text-gray-500"></p>
+              <a href="www.linkedin.com/in/tejasvinipatil" target="_blank" class="ml-3 text-gray-500">
+                <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                  <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+<!-- Adit -->
+        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+          <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+            <img alt="team" class="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="team-images/matmaan.jpg">
+            <div class="flex-grow">
+              <h2 class="text-gray-800 title-font text-xl ">Adit Manohar</h2>
+              <p class="text-gray-500"></p>
+              <a href="https://www.linkedin.com/company/teammanipalracing/" target="_blank" class="ml-3 text-gray-500">
+                <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                  <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+       
+        
+      </div>
+    </div>
+  </section>
+
+
+
+  <hr class="style-one"> 
+   <!-- motor -->
+
+ <section class="text-gray-700 body-font">
+  <div class="container mx-auto flex px-5 py-20 items-center justify-center flex-col">
+    
+    <div class="text-center lg:w-2/3 w-full">
+      <h1 class="title-font mb-4 text-gray-700 text-xl"><b>Motor and Motor Controller</b></h1>
+      <p class="mb-8 leading-relaxed">Deals with operations of BLDC motor and BLDC motor controller. </p>
+      
+    </div>
+  </div>
+</section>
+
+
+
+<section class="text-gray-700  body-font">
+<div class="container px-2  py-15 mx-auto">
+
+<div class="flex flex-wrap -m-2">
+
+
+
+<!-- Mano bhargav
+ -->
+<div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+  <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+    <img alt="team" class="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="team-images/Mano Passport size Photo - Mano Bhargav.jpeg">
+    <div class="flex-grow">
+      <h2 class="text-gray-800 title-font text-xl ">Mano bhargav
+      </h2>
+      <p class="text-gray-500">Subsystem Head</p>
+      <a href="https://www.linkedin.com/in/mano-bhargav-452748175/
+      " target="_blank" class="ml-3 text-gray-500">
+        <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+          <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+          <circle cx="4" cy="4" r="2" stroke="none"></circle>
+        </svg>
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- karthik-->
+<div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+  <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+    <img alt="team" class="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="team-images/Karthik - koushik Creation's.jpg">
+    <div class="flex-grow">
+      <h2 class="text-gray-800 title-font text-xl ">Karthik Hebbar</h2>
+      <p class="text-gray-500"></p>
+      <a href="https://www.linkedin.com/in/karthik-hebbar-a743a5170/
+      " target="_blank" class="ml-3 text-gray-500">
+        <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+          <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+          <circle cx="4" cy="4" r="2" stroke="none"></circle>
+        </svg>
+      </a>
+    </div>
+  </div>
+</div>
+
+
+<!-- Rushil -->
+<div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+  <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+    <img alt="team" class="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="team-images/rushilsaxena.jpg">
+    <div class="flex-grow">
+      <h2 class="text-gray-800 title-font text-xl ">Rushil Saxena </h2>
+      <p class="text-gray-500"></p>
+      <a href="https://www.linkedin.com/company/teammanipalracing/" target="_blank" class="ml-3 text-gray-500">
+        <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+          <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+          <circle cx="4" cy="4" r="2" stroke="none"></circle>
+        </svg>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+  <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+    <img alt="team" class="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="team-images/shreyanshkumar.jpg">
+    <div class="flex-grow">
+      <h2 class="text-gray-800 title-font text-xl ">Shreyash Kumar
+      </h2>
+      <p class="text-gray-500"></p>
+      <a href="https://www.linkedin.com/in/shreyash-kumar-02a661193
+      " target="_blank" class="ml-3 text-gray-500">
+        <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+          <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+          <circle cx="4" cy="4" r="2" stroke="none"></circle>
+        </svg>
+      </a>
+    </div>
+  </div>
+</div>
+
+
+
+
+</div>
+</div>
+</section>
+
+ 
+
+
+
+
+
+
+
+
+<hr class="style-one"> 
+<!-- mech -->
+
+<section class="text-gray-700 body-font">
+  <div class="container mx-auto flex px-5 py-20 items-center justify-center flex-col">
+    
+    <div class="text-center lg:w-2/3 w-full">
+      <h1 class="title-font mb-4 text-gray-700 text-xl"><b>Mechanical</b></h1>
+      <p class="mb-8 leading-relaxed"> </p>
+      
+    </div>
+  </div>
+</section>
+
+<section class="text-gray-700  body-font">
+<div class="container px-2  py-15 mx-auto">
+
+<div class="flex flex-wrap -m-2">
+
+
+
+<!-- vibha-->
+<div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+  <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+    <img alt="team" class="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="team-images/vibha.jfif">
+    <div class="flex-grow">
+      <h2 class="text-gray-800 title-font text-xl ">Vibha Bhat</h2>
+      <p class="text-gray-500">Brakes</p>
+      <a href="https://www.linkedin.com/in/vibha-bhat-503aa31b6
+
+      " target="_blank" class="ml-3 text-gray-500">
+        <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+          <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+          <circle cx="4" cy="4" r="2" stroke="none"></circle>
+        </svg>
+      </a>
+    </div>
+  </div>
+</div>  
+
+<!-- rajat
+ -->
+<div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+  <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+    <img alt="team" class="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="team-images/conv_rajat.jpg">
+    <div class="flex-grow">
+      <h2 class="text-gray-800 title-font text-xl ">Rajat Nidoni
+      </h2>
+      <p class="text-gray-500">Structures</p>
+      <a href="https://www.linkedin.com/in/rajat-nidoni-bb5064a6
+      " target="_blank" class="ml-3 text-gray-500">
+        <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+          <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+          <circle cx="4" cy="4" r="2" stroke="none"></circle>
+        </svg>
+      </a>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- ali -->
+<div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+  <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+    <img alt="team" class="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="team-images/IMG_20190922_131726_371_2 - Ali Zeeshan.jpg">
+    <div class="flex-grow">
+      <h2 class="text-gray-800 title-font text-xl ">Ali Zeeshan </h2>
+      <p class="text-gray-500">Vehicle Dynamics and DAQ</p>
+      <a href="https://www.linkedin.com/company/teammanipalracing/" target="_blank" class="ml-3 text-gray-500">
+        <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+          <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+          <circle cx="4" cy="4" r="2" stroke="none"></circle>
+        </svg>
+      </a>
+    </div>
+  </div>
+</div>
+
+</div>
+</div>
+</section>
+
+
+  
+  </div>
+  </div>
+
+
+  
+  <script>
+  function openCity(evt, cityName) {
+    var i, x, tablinks;
+    x = document.getElementsByClassName("city");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < x.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" w3-orange", " w3-white");
+    }
+    document.getElementById(cityName).style.display = "block";
+    //evt.currentTarget.className += " w3-orange";
+    evt.currentTarget.className = evt.currentTarget.className.replace(" w3-white"," w3-orange")
+  }
+  </script>
+<script src="nav.js"></script>  
 
 </body>
 </html>

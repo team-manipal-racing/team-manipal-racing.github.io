@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chat</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+
+    <body bgcolor="Ivory">
+        <div class="nav" id="nav">
+       <a href="javascript:void(0)" class="close" onclick="closeNav()">&times;</a>
+       <a href="#">Home</a>
+     
+   
+   </div>
+   
+   <span onclick="openNav()" class="open" id="open"><a style="-webkit-tap-highlight-color: transparent;">&#9776</a></span>
+
+   <script>
+       function openNav() {
+    document.getElementById("open").style.display = "block";
+    document.getElementById("nav").style.width = "100%";
+}
+function closeNav() {
+    
+    document.getElementById("nav").style.width = "0";
+    document.getElementById("open").style.display = "block";
+}
+   </script>
+
+    
+</body>
+</html>
