@@ -7,7 +7,13 @@
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-    
+    <script>
+      window.onload=function(){
+        document.getElementById('gif3').play();
+        // document.getElementById('gif2').play();
+        // document.getElementById('gif3').play();
+}
+    </script>
     
     
     <title>Team Manipal Racing</title>
@@ -82,9 +88,11 @@
             <div class="flex flex-wrap w-1/2">
               <div class="md:p-2 p-1 w-1/2">
                 <img alt="gallery" class="w-full object-cover h-full object-center block" src="images/1.JPG">
+                
               </div>
               <div class="md:p-2 p-1 w-1/2">
-                <img alt="gallery" class="w-full object-cover h-full object-center block" src="images/2.JPG">
+                <!-- <img alt="gallery" class="w-full object-cover h-full object-center block" src="images/2.JPG"> -->
+                <video id="gif3" class="w-full object-cover h-full object-center block" loop src="images/drift2.mp4" muted>not supported</video>
               </div>
               <div class="md:p-2 p-1 w-full">
                 <img alt="gallery" class="w-full h-full object-cover object-center block" src="images/3.JPG">
